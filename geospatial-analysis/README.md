@@ -18,13 +18,21 @@ To run it, you have a few options:
     ``` 
     to activate the environement. 
     
-    Then run `jupyter notebook` to start the notebook.
+    Then run 
+    ```
+    jupyter notebook
+    ``` 
+    to start the notebook.
 
    2. If you're more of a pipenv person, create a virtual env, then run:
     ```
     pip install -r requirements.txt
     ```
-    Then run `jupyter notebook` to start the notebook.
+    Then run 
+    ```
+    jupyter notebook
+    ``` 
+    to start the notebook.
 
 ## Downloading the tutorial materials
 
