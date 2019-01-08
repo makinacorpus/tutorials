@@ -8,19 +8,31 @@ The tutorials require several packages.
 
 To run it, you have a few options:
 
-   1. If you like to use conda, install miniconda (instructions here). Then run
+   1. If you like to use conda, install miniconda (instructions [here](https://conda.io/miniconda.html)). 
+   Then run
     ```
     conda env create -n carto_env -f environment.yml
     ```
-    and `source activate carto_env` to activate the environement. 
-    
-    Then run `jupyter notebook `to start the notebook.
+    and 
+    ```
+    source activate carto_env
+    ``` 
+    to activate the environment. 
+    Then run 
+    ```
+    jupyter notebook
+    ``` 
+    to start the notebook.
 
    2. If you're more of a pipenv person, create a virtual env, then run:
     ```
-    pip install -r requirements.txt
+    pipenv install 
     ```
-    Then run `jupyter notebook` to start the notebook.
+    Then run 
+    ```
+    jupyter notebook
+    ``` 
+    to start the notebook.
 
 ## Downloading the tutorial materials
 
@@ -32,7 +44,7 @@ If you can't or don't want to install git, there is a link above to download the
 
 ## Notebook listing
 
-You can view the tutorial materials using the excellent [nbviewer](https://nbviewer.jupyter.org/github/makinacorpus/tutorials/geospatial-analysis/index.ipynb) service.
+You can view the tutorial materials using the excellent [nbviewer](https://nbviewer.jupyter.org/github/makinacorpus/tutorials/blob/master/geospatial-analysis/notebooks/Index.ipynb) service.
 
 Note, however, that you cannot modify or run the contents within nbviewer. To modify them, first download the tutorial repository, change to the notebooks directory, and run ipython notebook. You should see the list in the ipython notebook launch page in your web browser. For more information on the IPython notebook, see http://ipython.org/notebook.html
 
