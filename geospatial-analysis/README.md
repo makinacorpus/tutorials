@@ -32,7 +32,7 @@ If you can't or don't want to install git, there is a link above to download the
 
 ## Notebook listing
 
-You can view the tutorial materials using the excellent [nbviewer](https://nbviewer.jupyter.org/github/makinacorpus/tutorials/geospatial-analysis/index.ipynb) service.
+You can view the tutorial materials using the excellent [nbviewer](https://nbviewer.jupyter.org/github/makinacorpus/tutorials/blob/master/geospatial-analysis/notebooks/Index.ipynb) service.
 
 Note, however, that you cannot modify or run the contents within nbviewer. To modify them, first download the tutorial repository, change to the notebooks directory, and run ipython notebook. You should see the list in the ipython notebook launch page in your web browser. For more information on the IPython notebook, see http://ipython.org/notebook.html
 
