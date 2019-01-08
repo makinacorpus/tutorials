@@ -1,0 +1,15 @@
+name: carto_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - descartes
+  - folium
+  - jupyter
+  - geopandas
+  - libspatialindex
+  - matplotlib
+  - pandas
+  - python=3.6
+  - rtree
+
