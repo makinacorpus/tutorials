@@ -25,7 +25,6 @@ To run it, you have a few options:
     to start the notebook.
 
    2. If you're more of a pipenv person, create a virtual env, then run:
-   
     ```
     pipenv install 
     ```
