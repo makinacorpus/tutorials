@@ -16,8 +16,7 @@ To run it, you have a few options:
     ```
     source activate carto_env
     ``` 
-    to activate the environement. 
-    
+    to activate the environment. 
     Then run 
     ```
     jupyter notebook
