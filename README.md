@@ -1,2 +1,2 @@
 # tutorials
-Collection of tutorials grouped bu theme
+Collection of tutorials grouped by theme
