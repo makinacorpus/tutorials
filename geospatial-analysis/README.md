@@ -8,7 +8,8 @@ The tutorials require several packages.
 
 To run it, you have a few options:
 
-   1. If you like to use conda, install miniconda (instructions [here](https://conda.io/miniconda.html)). Then run
+   1. If you like to use conda, install miniconda (instructions [here](https://conda.io/miniconda.html)). 
+   Then run
     ```
     conda env create -n carto_env -f environment.yml
     ```
@@ -24,8 +25,9 @@ To run it, you have a few options:
     to start the notebook.
 
    2. If you're more of a pipenv person, create a virtual env, then run:
+   
     ```
-    pip install -r requirements.txt
+    pipenv install 
     ```
     Then run 
     ```
