@@ -44,3 +44,13 @@ git clone git://github.com/makinacorpus/tutorials/machine_learning
 ```
 If you can't or don't want to install git, there is a link above to download the contents of this repository as a zip file. We may make changes to the repository, however, so cloning the repository is a much better option.
 repository
+
+
+## Notebook listing
+
+You can view the tutorial materials using the excellent [nbviewer](https://nbviewer.jupyter.org/github/BerengereMathieu/tutorials/tree/master/machine_learning/) service.
+
+Note, however, that you cannot modify or run the contents within nbviewer. To modify them, first download the tutorial repository, change to the notebooks directory, and run ipython notebook. You should see the list in the ipython notebook launch page in your web browser. For more information on the IPython notebook, see http://ipython.org/notebook.html
+
+In addition, for storage and licence reasons, our machine learning notebooks are often provided withou data. At the beginning of this notebook you will find information to download required data.
+
