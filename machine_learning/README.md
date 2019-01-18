@@ -52,5 +52,5 @@ You can view the tutorial materials using the excellent [nbviewer](https://nbvie
 
 Note, however, that you cannot modify or run the contents within nbviewer. To modify them, first download the tutorial repository, change to the notebooks directory, and run ipython notebook. You should see the list in the ipython notebook launch page in your web browser. For more information on the IPython notebook, see http://ipython.org/notebook.html
 
-In addition, for storage and licence reasons, our machine learning notebooks are often provided withou data. At the beginning of this notebook you will find information to download required data.
+In addition, for storage and licence reasons, our machine learning notebooks are often provided withou data. At the beginning of these notebooks you will find information to download required data.
 
