@@ -6,37 +6,39 @@ This repository contains Jupyter notebooks to explore the Python ecosystem for m
 
 The tutorials require several packages. 
 
-To run it, you have a few options:
+To run it install miniconda (instructions [here](https://conda.io/miniconda.html)). 
 
-   1. If you like to use conda, install miniconda (instructions [here](https://conda.io/miniconda.html)). 
-   Then run
-    ```
-    conda env create -n carto_env -f environment.yml
-    ```
-    and 
-    ```
-    source activate carto_env
-    ``` 
-    to activate the environment. 
-    Then run 
-    ```
-    jupyter notebook
-    ``` 
-    to start the notebook.
+Create the relevant virtual env 
+ ```
+ conda env create -n tutorial_ml_env -f environment.yml
+ ```
+Activate it 
 
-   2. If you're more of a pipenv person, create a virtual env, then run:
-    ```
-    pipenv install 
-    ```
-    Then run 
-    ```
-    jupyter notebook
-    ``` 
-    to start the notebook.
+ ```
+ source activate tutorial_ml_env
+ ``` 
+ 
+Install ipykernel
+ 
+```
+pip install ipykernel
+```
 
-## Downloading the tutorial materials
+Make virtual env avalaible in Jupyter notebook
+
+```
+python -m ipykernel install --user --name=tutorial_ml_env
+```
+
+Run juyter notebook 
+
+ ```
+ jupyter notebook
+ ``` 
+Open a tutorial notebook and select the kernel **tutorial_ml_env**
 
 We would highly recommend using git, not only for these tutorials, but for the general betterment of your life. Once git is installed, you can clone the material in this repository by using the git address shown above:
+
 ```
 git clone git://github.com/makinacorpus/tutorials/machine_learning
 ```
