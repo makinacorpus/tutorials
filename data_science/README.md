@@ -1,6 +1,6 @@
-# Geospatial analysis
+# Data science
 
-This repository contains Jupyter notebooks to explore the Python ecosystem for geospatial analysis.
+This repository contains Jupyter notebooks to explore the Python ecosystem for data science.
 
 ## Installation notes
 
@@ -11,11 +11,11 @@ To run it, you have a few options:
    1. If you like to use conda, install miniconda (instructions [here](https://conda.io/miniconda.html)). 
    Then run
     ```
-    conda env create -n carto_env -f environment.yml
+    conda env create -n jupyter_env -f environment.yml
     ```
     and 
     ```
-    source activate carto_env
+    source activate jupyter_env
     ``` 
     to activate the environment. 
     Then run 
@@ -38,13 +38,13 @@ To run it, you have a few options:
 
 We would highly recommend using git, not only for these tutorials, but for the general betterment of your life. Once git is installed, you can clone the material in this repository by using the git address shown above:
 ```
-git clone git://github.com/makinacorpus/tutorials/geospatial-analysis
+git clone git://github.com/makinacorpus/tutorials/data_science
 ```
 If you can't or don't want to install git, there is a link above to download the contents of this repository as a zip file. We may make changes to the repository, however, so cloning the repository is a much better option.
 
 ## Notebook listing
 
-You can view the tutorial materials using the excellent [nbviewer](https://nbviewer.jupyter.org/github/makinacorpus/tutorials/blob/master/geospatial-analysis/notebooks/Index.ipynb) service.
+You can view the tutorial materials using the excellent [nbviewer](https://nbviewer.jupyter.org/github/makinacorpus/tutorials/blob/master/data_science/notebooks/Index.ipynb) service.
 
 Note, however, that you cannot modify or run the contents within nbviewer. To modify them, first download the tutorial repository, change to the notebooks directory, and run ipython notebook. You should see the list in the ipython notebook launch page in your web browser. For more information on the IPython notebook, see http://ipython.org/notebook.html
 
